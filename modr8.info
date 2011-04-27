@@ -1,0 +1,9 @@
+; $Id$
+name = Modr8
+description = Easy, dedicated moderation of content
+core = 7.x
+configure = admin/config/system/modr8
+
+files[] = modr8.install
+files[] = modr8.module
+files[] = modr8_admin.inc
